@@ -10,7 +10,7 @@ CORS(app)
 # load the model
 model = pickle.load(open('airfoil_noise_model.pkl', 'rb'))
 scaler = joblib.load('scaler.pkl')
-@app.route('/template')
+@app.route('/')
 def home():
     return render_template('home.html') 
 
@@ -32,3 +32,4 @@ def predict_api():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
