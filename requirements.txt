@@ -1,0 +1,12 @@
+flask
+gunicorn
+numpy
+scipy
+Jinja2
+sklearn
+pandas
+matplotlib
+seaborn
+flask-cors
+workzeug
+scikit-learn
